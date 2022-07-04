@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "819322551762",
+    "project_id": "demodi-3ad94",
+    "storage_bucket": "demodi-3ad94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819322551762:android:482f267f3401f18d491c0b",
+        "android_client_info": {
+          "package_name": "com.example.di"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819322551762-mbcjvfchs9puv105s27v1msl4fcep6sc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.di",
+            "certificate_hash": "4ab156b54f2b9bf62e8af8d29d315c094ba03a8b"
+          }
+        },
+        {
+          "client_id": "819322551762-m3q6pv3bvo6rfkp0r2epm6i1oac5dkne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrhU_RKi8eL_lnv8jaQ1u5cRsRdDCgaXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819322551762-m3q6pv3bvo6rfkp0r2epm6i1oac5dkne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
