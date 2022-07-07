@@ -6,8 +6,6 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import com.example.di.databinding.ActivitySignupBinding
 import dagger.hilt.android.AndroidEntryPoint
-import dagger.hilt.android.HiltAndroidApp
-import dagger.hilt.android.WithFragmentBindings
 
 @AndroidEntryPoint
 class SignUpActivity : AppCompatActivity() {
@@ -23,6 +21,10 @@ class SignUpActivity : AppCompatActivity() {
         initObserve()
     }
 
+    private fun initEvent() {
+        signUp()
+    }
+
     private fun initObserve() {
         signUpViewModel.signUpResult.observe(this) { result ->
             when (result) {
@@ -33,14 +35,9 @@ class SignUpActivity : AppCompatActivity() {
                     Toast.makeText(this, result.errorMessage, Toast.LENGTH_SHORT).show()
                 }
                 is SignUpViewModel.SignUpResult.Loading -> {
-
                 }
             }
         }
-    }
-
-    private fun initEvent() {
-        signUp()
     }
 
     private fun signUp() {

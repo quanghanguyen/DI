@@ -25,7 +25,7 @@ class SignUpViewModel @Inject constructor(private val signUpRepository: SignUpRe
         }) {
             signUpResult.value = SignUpResult.Loading
             signUpRepository.signUp(email, password, {
-                signUpResult.value = SignUpResult.ResultOk(it.user?.displayName.orEmpty())
+                signUpResult.value = SignUpResult.ResultOk("Success")
             }, {
                 signUpResult.value = SignUpResult.ResultError(it)
             })

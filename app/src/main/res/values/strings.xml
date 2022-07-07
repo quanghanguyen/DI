@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DI</string>
+    <string name="nickname">Biệt danh</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="note">Ghi chú</string>
+    <string name="save">Xong</string>
+    <string name="sign_up">Sign Up</string>
+
 </resources>
