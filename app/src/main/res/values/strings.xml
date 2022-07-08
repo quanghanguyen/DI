@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">DI</string>
-    <string name="nickname">Biệt danh</string>
+    <string name="nickname">Tên</string>
     <string name="phone">Số điện thoại</string>
     <string name="note">Ghi chú</string>
     <string name="save">Xong</string>
-    <string name="sign_up">Sign Up</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="nick_name_items">Tên:</string>
+    <string name="phone_items">Số Điện thoại:</string>
+    <string name="notes_items">Ghi chú:</string>
 
 </resources>
